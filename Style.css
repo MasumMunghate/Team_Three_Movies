@@ -1,0 +1,244 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto+Mono:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+    background-color: rgba(13, 37, 63);
+    width: 100%;
+}
+nav .heding{
+    font-size: 1.5rem;
+    /* font-weight: 100; */
+    margin-right: 3rem;
+    /* border: 1px solid black; */
+    margin-left: 4rem;
+    color: rgba(1, 180, 228);
+    font-family: 'Poppins', sans-serif;  
+}
+nav .heding span{
+    color: rgba(144, 206, 161);
+}
+
+nav a button{
+    /* border: 1px solid rgb(44, 11, 189); */
+    padding: 1rem 1.5rem;
+    margin-right: 3rem;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: rgba(13, 37, 63);
+    color: rgba(1, 180, 228);
+    border: none;
+}
+
+nav a button:hover{
+    background-color: white;
+}
+/* ============================================================================================================== */
+
+/* main Section of Home page */
+.first_Section{
+    height: 40vh;
+}
+.mainImg{
+    /* border: 1px solid black; */
+    /* background-color: aqua; */
+    width: 25%;
+    display: flex;
+    justify-content: end;
+    float: right;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+.searchBox_and_heading{
+    width: 100%;
+    margin-top: 3rem;
+}
+.main_Container{
+    width: 80%;
+    margin: 0 auto;
+}
+.main_Container h1{
+    /* color: red; */
+    font-size: 2rem;
+    font-weight: 500;
+    width: 100%;
+    /* background-color: aqua; */
+}
+.main_Container .SearchBar{
+    width: 80%;
+    padding: 1rem 2rem;
+    border: none;
+    margin-top: 0.9rem;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.main_Container .SearchBar:hover{
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.Search_Btn{
+    padding: 1rem 1.4rem;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.4rem;
+    background-color: rgba(13, 37, 63);
+    color: rgba(1, 180, 228);
+    margin-left: 1rem;
+}
+
+.Treding_heading{
+    font-size: 2rem;
+    margin-left: 3rem;
+}
+.treding_card_container{
+    /* border: 10px solid rgb(102, 85, 85); */
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+}
+.single_Card{
+    margin-top: 2rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   /* border: 1px solid red; */
+   width: 25%;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   transition: 0.1s;
+   height: 400px;
+}
+.single_Card:hover{
+    transform: scale(1.1);
+}
+.movie_poster{
+    margin-top: 0.5rem;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+.movieImg{
+    width: 100%;
+}
+.movei_p{
+    text-align: center;
+}
+.movie_name {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.details{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    /* margin-bottom: 3rem; */
+    /* gap: 1rem; */
+}
+.Details_images2{
+    /* border: 1px solid red; */
+    height: 500px;
+    border-radius: 20px;
+    margin: 2rem 2rem;
+    margin-top: 2rem;
+}
+
+.movie_Charector{
+    /* border: 3px solid green; */
+    /* height: 500px; */
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.movie_Charector h1{
+    font-size: 3rem;
+    font-weight: lighter;
+    margin-bottom: 20rem ;
+    margin-left: -1rem;
+    /* margin-top: 10rem; */
+}
+.movie_Charector p{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.movie_CharectorImg{
+    height: 250px;
+    width: 30%;
+    border-radius: 10px;
+}
+.main_credits_Card{
+    /* border: 1px solid red; */
+    width: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    height:350px;
+}
+
+.main_credits_Card_Imgs{
+    width: 113%;
+    height: 240px;
+    border-radius: 19px;
+}
+
+.main_Container_Charector{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.creadits_name{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.parent{
+    display: flex;
+    width: 102%;
+    margin-top: 5rem;
+    justify-content: space-between;
+    height: 500px;
+}
+
+.story_Line_main{
+    float: right;
+    width: 70%;
+    margin-top: 2rem;
+}
+.story_Line_heading{
+    font-size: 2.3rem;
+}
+.story_para, p{
+    font-size: 1.3rem;
+    font-family: 'Poppins', sans-serif; 
+    padding: 1rem 0.5rem;
+}
+.more_move_Section{
+    margin-top: 12rem;
+    
+}
+.more_Movie_Card_Container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+}
+
+.recome{
+    width: 200px;
+    height: 400px;
+}
